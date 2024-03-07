@@ -38,6 +38,7 @@ public class NumberController {
             NumberEntity numberEntity = new NumberEntity();
             numberEntity.setNumber(number);
             numberRepository.save(numberEntity);
+//            numberRepository.save(numberEntity);
         }
     }
 }
